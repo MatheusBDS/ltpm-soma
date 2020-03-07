@@ -67,4 +67,28 @@
         android:inputType="numberDecimal"
         android:ems="10"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_somar"
+
+        android:layout_below="@+id/n2"
+        android:layout_alignLeft="@id/n2"
+
+        android:text="CALCULAR"
+        android:onClick="onClickSomar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+
+        android:id="@+id/resultado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+
+        android:layout_below="@+id/btn_somar"
+        android:layout_alignLeft="@+id/btn_somar"/>
 </RelativeLayout>
